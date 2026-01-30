@@ -28,19 +28,6 @@ Or manually:
 cl main.c /O2 /W3 /link user32.lib shell32.lib advapi32.lib /out:rectangle.exe
 ```
 
-## Building with MinGW
-
-```bat
-cd C:\dev\rectangle
-build-mingw.bat
-```
-
-Or manually:
-
-```bat
-gcc main.c -o rectangle.exe -luser32 -lshell32 -ladvapi32 -mwindows -O2
-```
-
 ## Output
 
-- `rectangle.exe` (~50KB, no dependencies)
+- `rectangle.exe` (~100KB, no dependencies)
